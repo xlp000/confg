@@ -338,7 +338,7 @@
     {
       "tag": "SV1",
       "type": "vless",
-      "server": "shopify.com", //修改优选ip或域名
+      "server": "malaysia.com", //修改优选ip或域名
       "server_port": 80, //端口可更改为80 8080 8880 2052 2086 2095
       "uuid": "c0d57cc6-3b67-4bde-b099-424289b810ea", //修改你的uuid
       "packet_encoding": "xudp",
@@ -346,7 +346,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "444.5tdwasge.workers.dev" //修改你的host
+          "Host": "35427ea4.confg.pages.dev" //修改你的host
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
@@ -355,7 +355,7 @@
     {
       "tag": "SV2",
       "type": "vless",
-      "server": "23.227.38.33", //修改优选ip或域名
+      "server": "104.20.29.136", //修改优选ip或域名
       "server_port": 80, //端口可更改为80 8080 8880 2052 2086 2095
       "uuid": "c0d57cc6-3b67-4bde-b099-424289b810ea", //修改你的uuid
       "packet_encoding": "xudp",
@@ -363,7 +363,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "c02c7177.confg.pages.dev" //修改你的host
+          "Host": "35427ea4.confg.pages.dev" //修改你的host
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048

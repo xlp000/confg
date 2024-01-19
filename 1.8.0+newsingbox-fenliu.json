@@ -340,7 +340,7 @@
       "type": "vless",
       "server": "shopify.com", //修改优选ip或域名
       "server_port": 80, //端口可更改为80 8080 8880 2052 2086 2095
-      "uuid": "ac6637d9-031d-4417-a592-fe60bb9e61c2", //修改你的uuid
+      "uuid": "c0d57cc6-3b67-4bde-b099-424289b810ea", //修改你的uuid
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",

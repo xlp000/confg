@@ -116,8 +116,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "2222.bwvd9gh5-dcb.workers.dev-HTTP", // 修改名称1
-        "2222.bwvd9gh5-dcb.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel" // 修改名称2
+        "35427ea4.confg.pages.dev-HTTP", // 修改名称1
+        "35427ea4.confg.pages.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel" // 修改名称2
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -136,17 +136,17 @@
       "tag": "block"
     },
     {
-      "tag": "2222.bwvd9gh5-dcb.workers.dev-HTTP", // 修改名称1
+      "tag": "35427ea4.confg.pages.dev", // 修改名称1
       "type": "vless",
-      "server": "shopify.com", //优选ip或 域名
+      "server": "malaysia.com", //优选ip或 域名
       "server_port": 80,
-      "uuid": "6c00e3f1-b0ec-425b-a5b8-3f786a50e402", //修改uuid
+      "uuid": "c0d57cc6-3b67-4bde-b099-424289b810ea", //修改uuid
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "2222.bwvd9gh5-dcb.workers.dev" //修改成自己host
+          "Host": "35427ea4.confg.pages.dev" //修改成自己host
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
@@ -155,15 +155,15 @@
     {
       "tag": "2222.bwvd9gh5-dcb.workers.dev-HTTP-cdn-all.xn--b6gac.eu.org-EDtunnel", // 修改名称2
       "type": "vless",
-      "server": "104.18.9.215", //优选ip或 域名
+      "server": "104.20.29.136", //优选ip或 域名
       "server_port": 80,
-      "uuid": "6c00e3f1-b0ec-425b-a5b8-3f786a50e402", //修改uuid
+      "uuid": "c0d57cc6-3b67-4bde-b099-424289b810ea", //修改uuid
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "2222.bwvd9gh5-dcb.workers.dev" //修改成自己host
+          "Host": "35427ea4.confg.pages.dev" //修改成自己host
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
